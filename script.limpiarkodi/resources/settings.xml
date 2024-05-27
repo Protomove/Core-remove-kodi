@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="Ajustes">
+        <setting type="lsep" label="Límites de Archivos en Cache" />
+        <setting id="filesize_alert" type="slider" label="Tamaño máximo de archivos totales" default="10" range="5,500" option="int" />
+        <setting type="lsep" label="Límites carpeta Package" />
+        <setting id="packagenumbers_alert" type="slider" label="Número máximo de archivos Zip" default="5" range="3,20" option="int" />
+        <setting type="lsep" label="Límite de Imagenes en Megabyte" />
+        <setting id="filesizethumb_alert" type="number" label="Límite de Imagenes en Megabyte" default="500" />
+    </category>
+    <category label="AutoStar">
+        <setting id="autoclean" type="bool" label="Auto Limpiar al iniciar Kodi (Todo menos las Imagenes)" default="false" />
+        <setting id="update" type="bool" label="Auto Actualizar Addons y Repositorios al iniciar Kodi" default="" />
+        <setting id="palantir" type="bool" label="Auto Actualizar Palantir 3 al inicio de Kodi" default="false" />
+    </category>
+    </settings>
